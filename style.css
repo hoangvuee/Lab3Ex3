@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+   
+    
+}
+.form{
+
+    background-image: url(https://haycafe.vn/wp-content/uploads/2022/01/Background-cong-nghe-4k.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70%;
+    height: 1000px;
+    margin-left: 400px;
+    margin-right: auto;
+    padding: 60px;
+    
+}
+.forminfor{
+    width: 500px;
+    height: 800px;
+    background-color: white;
+    border: 5px solid rgb(235, 169, 69);
+    border-radius: 20px;
+    padding: auto;
+    margin-left: 50px;
+    box-shadow: 7px 7px 7px rgba(247, 159, 25, 0.422);
+    box-shadow: 
+        -10px 0 10px rgba(247, 159, 25, 0.422), 
+        0 -10px 10px rgba(247, 159, 25, 0.422),
+        7px 7px 7px rgba(247, 159, 25, 0.422); 
+    vertical-align: top;
+    text-align: center;
+
+}
+.forminfor h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.725);
+    text-shadow: 3px 4px 5px rgba(235, 154, 33, 0.727) ,4px 4px 5px rgb(134, 48, 174);
+}
+.forminfor form{
+    margin: 0;
+    padding: 5px;
+}
+form .input{
+    width: 350px;
+    height: 70px;
+    padding: auto;
+    margin: 10px;
+    border: 2px solid rgb(219, 189, 18);
+    border-radius: 20px;
+    box-shadow: 
+        -5px 0 5px rgba(247, 159, 25, 0.422), 
+        0 -5px 5px rgba(247, 159, 25, 0.422),
+        4px 4px 4px rgba(247, 159, 25, 0.422); 
+    font-size: 18px;
+}
+form .button{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgba(228, 160, 32, 0.96);
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 40px;
+    box-shadow: 2px 2px 3px  rgba(205, 120, 83, 0.674);
+}
+form .p{
+    margin: 25px;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.635);
+}
+form .circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 2px 2px 3px gray;
+}
+.circle i{
+    font-size: 20px;
+    color: rgb(35, 96, 180);
+}
+form .signup{
+    margin-top: 220px;
+    font-size: 20px;
+display: block;
+cursor: pointer;
+text-decoration: none;
+color: rgba(109, 109, 109, 0.77);
+}
+.formsignup{
+    width: 60%;
+    height: 1500px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(156, 156, 156, 0.714);
+}
+.formsignup .formsignupinfor{
+    width: 95%;
+    height: 1400px;
+    margin: 10px;
+    padding: auto;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    vertical-align: top;
+    text-align: left;
+    
+}
+.formsignupinfor .h1{
+    font-size: 40px;
+    color: rgb(120, 195, 7);
+    margin: 0;
+    padding: 60px;
+    padding-bottom: 30px;
+}
+.formsignupinfor .formsignup1{
+    margin: 0;
+    margin-left: 60px;
+    padding: auto;
+    width: 87%;
+    height: 600px;
+   
+
+}
+.formsignup1 .blockinput{
+    width: 90%;
+    height: 80px;
+    margin: 10px;
+    padding: auto;
+    border-radius: 4px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    border: 1px solid gray;
+}
+.blockinput .icon{
+    width: 15%;
+    height: 80px;
+    margin: 0;
+    background-color:rgba(217, 217, 217, 0.606); ;
+    padding: 2px;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid white;
+    
+}
+.blockinput .icon i{
+    font-size: 30px;
+    color: rgba(160, 156, 156, 0.53);
+    border-right: 1px solid rgb(126, 126, 126);
+    padding-right: 40px;
+    margin: 0;
+}
+.blockinput .input1{
+    margin: 20px; 
+   
+    margin-left: -2px;
+    width: 90%;
+    height: 80px;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius: 0;
+    background-color:rgba(217, 217, 217, 0.606); ;
+    font-size: 20px;
+    border: 1px solid white;
+    margin-right: 0;
+    border-right: none;
+    border-left: none;
+}
+
+.formsignup1 .inputuser{
+    margin: 0;
+    margin-top: 40px;
+    width: 90%;
+    height: 200px;
+    padding: auto;
+}
+.inputuser .date{
+    width: 50%;
+    margin: 0;
+    float: left;
+    text-align: left;
+}
+.inputuser .gender{
+    width: 50%;
+    margin: 0;
+    float: left;
+    height: 80px;
+    text-align: left;
+}
+.date .p{
+    font-size: 40px;
+    color: rgb(120, 195, 7);
+    margin-left: 0;
+}
+.gender .p{
+    font-size: 40px;
+    color: rgb(120, 195, 7);
+    margin-left: 0;
+}
+.input2[type="month"]{
+    width: 100px;
+    height: 80px;
+    border: 1px solid rgba(128, 128, 128, 0.371);
+    border-radius: 5px;
+    margin-right: 10px;
+    float: left;
+    font-size: 20px;
+    background-color:rgba(217, 217, 217, 0.606); ;
+}
+.input3[type = "text"]{
+    width: 50%;
+    height: 80px;
+    border: 1px solid rgba(128, 128, 128, 0.371);
+    border-radius: 5px;
+    float: left;
+    font-size: 20px;
+    margin: 0;
+    background-color:rgba(217, 217, 217, 0.606); ;
+}
+.formsignup1 .pay{
+    margin: 0;
+    width: 90%;
+    height: 500px;
+    border: 1px solid red;
+    
+}
+.pay .p{
+    font-size: 40px;
+    color: rgb(120, 195, 7);
+    margin-left: 0;
+}
+.pay .selecpay{
+    width: 50%;
+    height: 80px;
+    margin: 0;
+    float: left;
+    border: 1px solid rgba(128, 128, 128, 0.371) ;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(217, 217, 217, 0.606); ;
+    margin-bottom: 20px;
+}
+.selecpay a,i{
+text-decoration: none;
+font-size: 30px;
+color: rgba(104, 99, 99, 0.62);
+
+margin-top: 5px;
+margin-left: 0px;
+color: rgba(109, 109, 109, 0.77);
+
+}
